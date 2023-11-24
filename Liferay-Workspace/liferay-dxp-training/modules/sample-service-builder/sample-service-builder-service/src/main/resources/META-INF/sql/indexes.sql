@@ -1,0 +1,1 @@
+create index IX_807D98B0 on Collins_Student (uuid_[$COLUMN_LENGTH:75$]);

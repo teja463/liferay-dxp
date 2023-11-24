@@ -1,0 +1,11 @@
+
+body {
+	.product-menu {
+		background-color: cadetblue;
+		.panel-heading .panel-title > .panel-toggler {
+			.category-name, .user-name, .site-name {
+				color: darkkhaki;
+			}
+		}
+	}
+}

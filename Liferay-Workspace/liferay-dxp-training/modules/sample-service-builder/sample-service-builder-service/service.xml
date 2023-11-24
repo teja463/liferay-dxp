@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="sample.service.builder">
+	<namespace>Collins</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="Student" remote-service="true" uuid="true">
+
+		<column name="id" primary="true" type="long" />
+		<column name="name" type="String" />
+		<column name="marks" type="int" />
+		<column name="address" type="String" />
+		<column name="birthDate" type="Date" />
+
+	</entity>
+</service-builder>
