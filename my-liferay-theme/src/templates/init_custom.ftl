@@ -4,6 +4,10 @@
 	show_main_navigation_in_full_screen = getterUtil.getBoolean(themeDisplay.getThemeSetting("show-main-navigation-in-full-screen"))
 	use_a_retina_logo = getterUtil.getBoolean(themeDisplay.getThemeSetting("use-a-retina-logo"))
 	<#-- Insert snippet 06-init-custom-settings here -->
+	facebook_icon = getterUtil.getBoolean(themeDisplay.getThemeSetting("facebook-icon"))
+	facebook_icon_link_url = themeDisplay.getThemeSetting("facebook-icon-link-url")
+	twitter_icon = getterUtil.getBoolean(themeDisplay.getThemeSetting("twitter-icon"))
+	twitter_icon_link_url = themeDisplay.getThemeSetting("twitter-icon-link-url")
 />
 
 <#if show_main_navigation_in_full_screen>
