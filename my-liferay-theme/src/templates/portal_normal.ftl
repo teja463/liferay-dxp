@@ -42,9 +42,9 @@
 			</main>
 			
 			<#-- Type footer.ftl include here -->
-			<#if show_footer>
+			<#--  <#if show_footer>  -->
 				<#include "${full_templates_path}/footer.ftl" />
-			</#if>
+			<#--  </#if>  -->
 		</div>
 
 		<@liferay_util["include"] page=body_bottom_include />
