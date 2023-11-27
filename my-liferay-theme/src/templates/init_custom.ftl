@@ -10,6 +10,7 @@
 	twitter_icon_link_url = themeDisplay.getThemeSetting("twitter-icon-link-url")
 />
 
+<#assign site_logo = htmlUtil.escape(portalUtil.getStaticResourceURL(request, "${images_folder}/livingstone-logo.png")) />
 <#if show_main_navigation_in_full_screen>
 	<#assign
 		css_class = css_class + " full-screen-navigation"

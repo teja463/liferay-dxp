@@ -5,6 +5,15 @@
 @import 'liferay-font-awesome/scss/font-awesome';
 @import 'liferay-font-awesome/scss/glyphicons';
 
+@import "partials/variables";
+
+@import "partials/backgrounds";
+@import "partials/buttons";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/texts";
+
+@import "portlet/portlet_decorator";
 /* endinject */
 
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
