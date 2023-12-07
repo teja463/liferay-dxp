@@ -1,5 +1,5 @@
 <#-- Insert 03-footer-ftl here -->
-<footer class="bg-dark footer py-5 text-white-50">
+<footer class="bg-dark footer py-5 text-white-50" id="footer">
     <div class="container">
         <div class="row">
             <div class="align-items-center col-12 d-flex flex-col flex-md-row">

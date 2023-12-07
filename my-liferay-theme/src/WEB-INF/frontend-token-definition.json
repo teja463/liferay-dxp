@@ -1,0 +1,53 @@
+{
+    "frontendTokenCategories": [
+        {
+            "name": "customStyles",
+            "label": "custom-styles",
+            "frontendTokenSets": [
+                {
+                    "name": "footerStyles",
+                    "label": "footer-styles",
+                    "frontendTokens": [
+                        {
+                            "name": "footerColor",
+                            "label": "footer-color",
+                            "type": "String",
+                            "editorType": "ColorPicker",
+                            "defaultValue": "#fff",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "footer-powered-by-color"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "footerTopMargin",
+                            "label": "footer-top-margin",
+                            "type": "String",
+                            "defaultValue": "1rem",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "footer-top-margin"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "footerContainerPadding",
+                            "label": "footer-container-padding",
+                            "type": "String",
+                            "defaultValue": "3rem",
+                            "mappings": [
+                                {
+                                    "type": "cssVariable",
+                                    "value": "footer-container-padding"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

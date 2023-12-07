@@ -20,3 +20,14 @@
         }
     }
 }
+
+#footer {
+    color: $poweredByColor;
+    color: var(--footer-powered-by-color, $poweredByColor);
+    margin-top: var(--footer-top-margin);
+  
+    > .container {
+      padding-bottom: var(--footer-container-padding);
+      padding-top: var(--footer-container-padding);
+    }
+  }

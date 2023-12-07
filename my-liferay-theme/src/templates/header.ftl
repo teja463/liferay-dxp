@@ -13,7 +13,7 @@
 						</#if>
 					</a>
 
-					<button aria-controls="navigationCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler text-reset" data-target="#navigationCollapse" data-toggle="collapse" type="button">
+					<button aria-controls="navigationCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler text-reset" data-target="#navigationCollapse" data-toggle="liferay-collapse" type="button">
 						<span class="d-flex fjord-navbar-toggler-icon flex-column justify-content-center">
 							<span class="d-block"></span>
 
