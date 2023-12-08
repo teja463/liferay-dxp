@@ -1,0 +1,11 @@
+{
+	"liferayDir": "C:\\Collins\\Softwares\\Liferay74\\liferay-dxp-7.4.13.u70",
+	"webpack": {
+		"rules": [
+			{
+				"test": "src\\\\.*\\.js$",
+				"use": "babel-loader"
+			}
+		]
+	}
+}
