@@ -7,6 +7,9 @@
 	</compatibility>
 	<theme id="my-liferay-theme2" name="My Liferay Theme2">
 		<template-extension>ftl</template-extension>
+		<settings>
+			<setting configurable="true" key="show-footer" type="checkbox" value="true" />
+		  </settings>
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
 		</portlet-decorator>
