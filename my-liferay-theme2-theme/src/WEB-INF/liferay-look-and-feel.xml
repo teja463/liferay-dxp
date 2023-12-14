@@ -9,7 +9,15 @@
 		<template-extension>ftl</template-extension>
 		<settings>
 			<setting configurable="true" key="show-footer" type="checkbox" value="true" />
-		  </settings>
+		</settings>
+		<color-scheme id="01" name="Default">
+			<default-cs>true</default-cs>
+			<css-class>default</css-class>
+			<color-scheme-images-path> ${images-path}/color_schemes/${css-class} </color-scheme-images-path>
+		</color-scheme>
+		<color-scheme id="02" name="Eclipse">
+			<css-class>eclipse</css-class>
+		</color-scheme>
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
 		</portlet-decorator>
