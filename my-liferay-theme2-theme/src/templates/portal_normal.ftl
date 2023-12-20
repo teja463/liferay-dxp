@@ -44,6 +44,7 @@
 			<h2 class="hide-accessible sr-only" role="heading" aria-level="1">
 				${htmlUtil.escape(the_title)}
 			</h2>
+			<p>Coming from the template context contributor ${sample_text}</p>
 			<#if selectable>
 				<@liferay_util["include"]
 					page=content_include />
