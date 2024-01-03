@@ -32,7 +32,7 @@
 						aria-expanded="false"
 						class="btn-monospaced ml-auto navbar-toggler"
 						data-target="#lunarNav"
-						data-toggle="collapse"
+						data-toggle="liferay-collapse"
 						type="button">
 						<span class="navbar-toggler-icon"></span>
 					</button>
