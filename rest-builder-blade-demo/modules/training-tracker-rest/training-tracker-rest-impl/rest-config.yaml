@@ -1,0 +1,9 @@
+apiDir: "../training-tracker-rest-api/src/main/java"
+apiPackagePath: "training.tracker.rest"
+application:
+    baseURI: "/training-tracker-rest"
+    className: "TrainingTrackerRestApplication"
+    name: "TrainingTrackerRest"
+author: "bponnuru"
+#clientDir: "../training-tracker-rest-client/src/main/java"
+#testDir: "../training-tracker-rest-test/src/testIntegration/java"

@@ -1,0 +1,6 @@
+Bundle-Name: training-tracker-rest-api
+Bundle-SymbolicName: training.tracker.rest.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	training.tracker.rest.dto.v1_0,\
+	training.tracker.rest.resource.v1_0

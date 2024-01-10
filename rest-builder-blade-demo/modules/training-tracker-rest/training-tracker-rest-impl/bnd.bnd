@@ -1,0 +1,3 @@
+Bundle-Name: training-tracker-rest-impl
+Bundle-SymbolicName: training.tracker.rest.impl
+Bundle-Version: 1.0.0
