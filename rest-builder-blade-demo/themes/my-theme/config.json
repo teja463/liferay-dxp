@@ -1,0 +1,11 @@
+{
+    "batchMode": true,
+    "answers": {
+        "*": {
+            "themeName": "My Theme",
+            "themeId": "my-theme",
+            "liferayVersion": "7.4",
+            "fontAwesome": "true"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+assemble:
+    - from: build/static
+      into: static
+h5v7-custom-element:
+    cssURLs:
+        - css/main.*.css
+    friendlyURLMapping: h5v7-custom-element
+    htmlElementName: h5v7-custom-element
+    instanceable: false
+    name: H5v7 Custom Element
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - js/main.*.js
+    useESM: true

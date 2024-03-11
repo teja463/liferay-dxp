@@ -1,0 +1,45 @@
+{
+  "name": "platform-agnostic",
+  "version": "1.0.0",
+  "description": "Platform Agnostic",
+  "dependencies": {
+    "@liferay/portal-agnostic": "*",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.2.1",
+    "@material/floating-label": "^4.0.0",
+    "@material/linear-progress": "^4.0.0",
+    "@tippyjs/react": "^4.2.6",
+    "ag-charts-community": "^3.1.0",
+    "ag-charts-react": "^3.1.0",
+    "ag-grid-community": "^21.2.2",
+    "ag-grid-enterprise": "^21.2.2",
+    "ag-grid-react": "^21.2.2",
+    "applicationinsights-js": "^1.0.15",
+    "axios": "^1.6.2",
+    "buffer": "^6.0.3",
+    "core-js": "^2.5.3",
+    "cross-env": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "history": "latest",
+    "interactjs": "^1.7.3",
+    "localforage": "^1.9.0",
+    "lodash": "^4.17.21",
+    "match-sorter": "^2.0.2",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27"
+  },
+  "portlet": {
+    "com.liferay.portlet.display-category": "category.sample",
+    "com.liferay.portlet.header-portlet-css": "/css/styles.css",
+    "com.liferay.portlet.instanceable": true,
+    "javax.portlet.name": "platformagnostic",
+    "javax.portlet.security-role-ref": "power-user,user",
+    "javax.portlet.resource-bundle": "content.Language"
+  },
+  "scripts": {
+    "build": "liferay build",
+    "clean": "liferay clean",
+    "deploy": "liferay deploy"
+  },
+  "devDependencies": {}
+}
